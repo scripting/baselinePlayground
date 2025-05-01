@@ -1,6 +1,6 @@
 # baselinePlayground
 
-A prototype of what a story page might look like on our baseline site for WordLand. 
+A <a href="http://scripting.com/code/baselineplayground/">prototype</a> of what a story page might look like on our baseline site for WordLand. 
 
 Quick to iterate and tweak, to share ideas with people working on the WordPress theme for a site.
 

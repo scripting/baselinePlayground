@@ -14,3 +14,9 @@ Anyway, it might become handy if WordLand catches on and others want to experime
 
 Dave Winer, May 2025
 
+### Links
+
+The <a href="http://scripting.com/code/baselineplayground/">page</a> I was working on in May 2025.
+
+The <a href="worknotes.md">worknotes</a> for this little project.
+

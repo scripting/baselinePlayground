@@ -2,6 +2,8 @@
 
 Made this a GitHub project
 
+Cleaned up line-height, it should simply be a property of divStory, and not specified separately for lists and paragraphs.
+
 #### 5/1/25; 8:39:36 AM by DW
 
 moved the footer down a bit

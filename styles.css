@@ -14,7 +14,7 @@ body {
 
 .divPageTop {
 	text-align: center;
-	margin-bottom: 90px;
+	margin-bottom: 60px;
 	line-height: 110%;
 	}
 .divPageTop .divSiteTitle {
@@ -29,13 +29,15 @@ body {
 	}
 
 .divStory {
+	line-height: 100%;
+	border: solid 1px lavender;
+	padding: 15px;
 	}
 .divStory .divStoryTitle {
-	font-size: 36px;
+	font-size: 32px;
 	font-weight: bold;
-	margin-bottom: 2px;
+	margin-bottom: 5px;
 	letter-spacing: -0.04em;
-	line-height: 110%;
 	}
 .divLineUnderStoryTitle {
 	color: rgb(123, 123, 123);
@@ -44,11 +46,10 @@ body {
 	}
 
 .divStoryBody {
-	margin-top: 15px;
+	margin-top: 25px;
+	font-size: 18px;
 	}
 .divStoryBody p {
-	font-size: 18px;
-	line-height: 135%;
 	margin-bottom: 10px;
 	}
 .divStoryBody a {
@@ -67,11 +68,12 @@ body {
 	margin-bottom: 1em;
 	}
 .divStoryBody li {
-	margin-bottom: 3px;
+	margin-bottom: 5px;
+	line-height: inherit;
 	}
 
 .divCategories {
-	margin-top: 1em;
+	margin-top: 3em;
 	color: rgb(123, 123, 123);
 	font-size: 14px;
 	}
@@ -82,11 +84,13 @@ body {
 	font-size: 14px;
 	}
 
-/* styles for phone, tablet */
-	@media screen and (max-width: 1024px) {
-		.divPageBody {
-			width: 95%;
-			margin-top: 80px;
-			}
+@media screen and (max-width: 1024px) { /* styles for phone, tablet */
+	.divPageBody {
+		width: 95%;
+		margin-top: 80px;
 		}
-	
+	}
+
+
+
+

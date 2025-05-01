@@ -18,5 +18,7 @@ Dave Winer, May 2025
 
 The <a href="http://scripting.com/code/baselineplayground/">page</a> I was working on in May 2025.
 
-The <a href="worknotes.md">worknotes</a> for this little project.
+The <a href="worknotes.md">worknotes</a> for this project.
+
+The wordlandSupport <a href="https://github.com/scripting/wordlandSupport/issues/71#issuecomment-2844852188">thread</a> where we worked on this.
 

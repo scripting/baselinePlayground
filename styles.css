@@ -47,12 +47,12 @@ body {
 
 .divStoryBody {
 	margin-top: 25px;
-	font-size: 18px;
+	font-size: 16px;
 	}
 .divStoryBody p {
 	margin-bottom: 10px;
 	}
-.divStoryBody a {
+.divStoryBody a, .divFooter a {
 	color: #0088cc;
 	text-decoration: none;
 	cursor: pointer;
@@ -63,7 +63,6 @@ body {
 	margin-bottom: 0;
 	}
 .divStoryBody ol, .divStoryBody ul {
-	font-size: 18px; /* controls the size of the numbers or bullets */
 	margin-top: .5em;
 	margin-bottom: 1em;
 	}

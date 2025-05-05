@@ -30,8 +30,6 @@ body {
 
 .divStory {
 	line-height: 100%;
-	border: solid 1px lavender;
-	padding: 15px;
 	}
 .divStory .divStoryTitle {
 	font-size: 32px;
@@ -39,7 +37,7 @@ body {
 	margin-bottom: 5px;
 	letter-spacing: -0.04em;
 	}
-.divLineUnderStoryTitle {
+.divStory .divLineUnderStoryTitle {
 	color: rgb(123, 123, 123);
 	font-size: 14px;
 	margin-left: 2px;

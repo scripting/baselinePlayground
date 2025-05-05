@@ -1,8 +1,6 @@
 #### 5/4/25; 5:16:04 PM by DW
 
-Changes
-
-* .divStory -- removed border, padding
+.divStory -- removed border, padding
 
 #### 5/1/25; 9:08:56 AM by DW
 

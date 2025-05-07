@@ -22,3 +22,5 @@ The <a href="worknotes.md">worknotes</a> for this project.
 
 The wordlandSupport <a href="https://github.com/scripting/wordlandSupport/issues/71#issuecomment-2844852188">thread</a> where we worked on this.
 
+Scott's <a href="https://github.com/scotthansonde/wordlandBaseline">repo</a> for work on the baseline theme.
+

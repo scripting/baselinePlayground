@@ -1,3 +1,6 @@
+:root {
+	--storyBodyFontSize: 18px;
+	}
 body {
 	background-color: white;
 	}
@@ -45,7 +48,7 @@ body {
 
 .divStoryBody {
 	margin-top: 25px;
-	font-size: 16px;
+	font-size: 18px;
 	}
 .divStoryBody p {
 	margin-bottom: 10px;

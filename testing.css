@@ -1,4 +1,54 @@
+
+
+:root {
+	--vertical-space-storybody: 25px; 
+	}
+
+.divPageBody {
+	margin-top: 30px;
+	}
+.divPageTop {
+	margin-bottom: 70px;
+	}
 .divPageTop .divSiteTitle {
 	font-size: 75px;
-	color: green;
+	margin-bottom: 0px;
 	}
+.divFooterSocialMenu svg {
+	height: 18px;
+	width: 18px;
+	fill: orange;
+	}
+.divStory .divLineUnderStoryTitle {
+	margin-left: 3px;
+	}
+.divStoryBody {
+	margin-bottom: 30px;
+	}
+.divFooter {
+	margin-top: 200px;
+	border-top: 1px solid silver;
+	padding-top: 15px;
+	}
+
+/* 9/23/25 by DW */
+	.divPageTop {
+		margin-bottom: 40px;
+		}
+	.divStoryTitle {
+		font-size: 34px;
+		}
+	.divStoryBody {
+		font-size: 18px;
+		line-height: 145%;
+		}
+	.divStoryBody p {
+		margin-top: 10px;
+		margin-bottom: 15px;
+		}
+	.divStoryBody ul {
+		padding-inline-start: 30px;
+		}
+	.divStoryBody li {
+		margin-bottom: 10px;
+		}

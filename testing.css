@@ -1,5 +1,3 @@
-
-
 :root {
 	--vertical-space-storybody: 25px; 
 	}
@@ -31,6 +29,27 @@
 	padding-top: 15px;
 	}
 
+/* 1/21/26 by DW */
+	.spReplyLink {
+		font-family: "Ubuntu";
+		font-size: 14px;
+		font-weight: normal;
+		margin-left: 7px;
+		opacity: 0.5;
+		}
+	.spReplyLink a {
+		color: inherit;
+		cursor: pointer;
+		}
+	.spReplyIcon {
+		position: relative;
+		top: 3px;
+		}
+	.spReplyIcon svg {
+		height: 14px;
+		opacity: 0.5;
+		}
+
 /* 9/23/25 by DW */
 	.divPageTop {
 		margin-bottom: 40px;
@@ -40,7 +59,7 @@
 		}
 	.divStoryBody {
 		font-size: 18px;
-		line-height: 145%;
+		line-height: 150%; /* 1/15/26 by DW */
 		}
 	.divStoryBody p {
 		margin-top: 10px;

@@ -1,3 +1,7 @@
+1/23/26; 5:03:36 PM by DW
+
+Working on the Reply icon. 
+
 #### 8/2/25; 9:51:03 AM by DW
 
 How to play with styles on daveverse.org

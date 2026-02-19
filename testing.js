@@ -25,6 +25,16 @@ function baselineStartup (userOptions) { //1/19/26 by DW
 	mergeOptions (userOptions, options);
 	
 	var wordlandTab = null; //1/23/26 by DW
+	function jsonStringify (jstruct, flFixBreakage) { //7/30/14 by DW
+		if (flFixBreakage === undefined) {
+			flFixBreakage = false;
+			}
+		var s = JSON.stringify (jstruct, undefined, 4);
+		if (flFixBreakage) {
+			s = s.replace (/\u2028/g,'\\u2028').replace (/\u2029/g,'\\u2029');
+			}
+		return (s);
+		}
 	function sendToWordland (params) {
 		console.log ("sendToWordland: params == " + jsonStringify (params));
 		if (wordlandTab === null || wordlandTab.closed) {
@@ -117,16 +127,21 @@ function baselineStartup (userOptions) { //1/19/26 by DW
 	function getReplyLink (idPost, titleText, permalink) {
 		const spReplyLink = $("<span class=\"spReplyLink\"></span>");
 		
+		const feedUrl = permalink.replace (/^(https?:\/\/[^\/]+).*/, "$1/feed/");
+		const guid = permalink.replace (/^(https?:\/\/[^#]+)#a(\d+)$/, "$1$2/");
+		
 		const params = {
 			blogreply: true,
 			source: "wpcom",
 			site: getSiteId (),
 			post: idPost,
 			title: getTitletext (titleText),
-			url: permalink
+			feed: feedUrl, //2/19/26 by DW
+			guid //2/19/26 by DW
 			};
 		const urlWordland = "https://wordland.dev/?" + buildParamList (params);
-		
+		console.log ("getReplyLink: params == " + jsonStringify (params));
+		console.log ("getReplyLink: urlWordland == " + urlWordland);
 		
 		const tooltiptext = "Click here to reply to this post.";
 		

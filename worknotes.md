@@ -1,4 +1,16 @@
-1/23/26; 5:03:36 PM by DW
+#### 2/19/26; 9:41:17 AM by DW
+
+change to params we send to wordland 
+
+* change the name url to guid
+
+* add feed param (the url of the feed)
+
+example
+
+* https://wordland.dev/?blogreply=true&source=wpcom&site=237777565&post=6904&title=The%20Spurlocks%20of%20RSS-Land&guid=https%3A%2F%2Fdaveverse.org%2F2026%2F02%2F18%2Fthe-spurlocks-of-rss-land%2F&feedurl=https%3A%2F%2Fdaveverse.org%2Ffeed%2F
+
+#### 1/23/26; 5:03:36 PM by DW
 
 Working on the Reply icon. 
 
